@@ -3,6 +3,9 @@
     $usuario = 'root';
     $senha = '';
 
-    $conexao = new PDO($dsn, $usuario, $senha);
-
+    try{
+        $conexao = new PDO($dsn, $usuario, $senha);
+    }catch (PDOException $e){
+        echo 'Código de erro: ' .$e->getCode(). ' Mensagem: ' .$e->getMessage();
+    }
 ?>

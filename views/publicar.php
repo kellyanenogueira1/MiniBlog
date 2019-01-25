@@ -25,8 +25,9 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="row">
             <div class="col-md-3" ></div>
+
             <div class="col-md-6 m-5" >
                 <div class="panel panel-default ">
                     <div class="panel-body">
@@ -39,13 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="panel panel default">
-                    <div class="panel-body">
 
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
         </div>
 
         <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
