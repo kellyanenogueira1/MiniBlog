@@ -1,6 +1,6 @@
 <html lang="pt-br">
     <head> 
-        <title>MiniBlog - ProAluno</title>
+        <title>MiniBlog - Proluno</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
@@ -18,9 +18,9 @@
             
             <div class="collapse navbar-collapse" id="navegacao"> <!-- Para esconder nossos itens de navegação -->
                 <ul class="navbar-nav ml-auto">
-                    <li class = "nav-item"><a href="" class="nav-link active">Entrar</a></li>
-                    <li class = "nav-item"><a href="" class="nav-link">Publicações</a></li>
-                    <li class = "nav-item"><a href="" class="nav-link">Sair</a></li>
+                    <li class = "nav-item"><a href="../index.php" class="nav-link">Home</a></li>
+                    <li class = "nav-item"><a href="inscrevase.php" class="nav-link">Inscreva-se</a></li>
+                    <li class = "nav-item"><a href="logar.php" class="nav-link active">Entrar</a></li>
 
                 </ul>
             </div>
